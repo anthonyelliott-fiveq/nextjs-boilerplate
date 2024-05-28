@@ -22,11 +22,11 @@ export default function RootLayout({
         {children}
         <Script
           src="https://cf.journity.com/collector/journity-anthony.com.js"
-          strategy="afterInteractive"
+          strategy="beforeInteractive"
         />
         <Script
           src="https://cf.journity.com/personalizer/journity-anthony.com.min.js"
-          strategy="afterInteractive"
+          strategy="beforeInteractive"
         />
       </body>
     </html>
