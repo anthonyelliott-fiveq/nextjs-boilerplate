@@ -18,7 +18,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>{children}</body>
-      <Script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js" strategy="afterInteractive" />
+      <Script src="https://cf.journity.com/collector/journity-anthony.com.js" strategy="afterInteractive" />
     </html>
   );
 }
