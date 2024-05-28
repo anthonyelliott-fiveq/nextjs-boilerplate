@@ -17,9 +17,17 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
-      <Script src="https://cf.journity.com/collector/journity-anthony.com.js" strategy="afterInteractive" />
-      <Script src="https://cf.journity.com/personalizer/journity-anthony.com.min.js" strategy="afterInteractive" />
+      <body className={inter.className}>
+        {children}
+        <Script
+          src="https://cf.journity.com/collector/journity-anthony.com.js"
+          strategy="afterInteractive"
+        />
+        <Script
+          src="https://cf.journity.com/personalizer/journity-anthony.com.min.js"
+          strategy="afterInteractive"
+        />
+      </body>
     </html>
   );
 }
